@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a2b3da0c65.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div>
+        <center  class=" bday">Happy Birthday Sunil Kumar</center>
+    </div>
+    
+
+   
+    <div class="wrapper"><center>
+            <div class="img-area">
+                <div class="single-img img-one">
+                    <img src="image/1.jpg" alt="">
+                </div>
+                <div class="single-img img-two">
+                    <img src="image/2.jpg" alt="">
+                </div>
+                <div class="single-img img-three">
+                    <img src="image/3.jpg" alt="">
+                </div>
+                <div class="single-img img-four">
+                    <img src="image/4.jpg" alt="">
+                </div>
+                <div class="single-img img-five">
+                    <img src="image/5.jpg" alt="">
+                </div>
+                <div class="single-img img-six">
+                    <img src="image/6.jpg" alt="">
+                </div>
+                
+                </div>
+                
+            
+    </center>
+    </div>
+    <br><br><br><br><br><br><br>
+
+
+    <div class="information">
+        <h1 id="playlist_status"></h1>
+        <p id="playlist_artist" style="visibility: hidden; height: 0px;"></p>
+    </div>
+    <main class="player">
+
+        <div class="progress">
+            <div class="progress-time">
+                <span id="currenttimetext" class="left">00:00</span>
+                <span id="durationtimetext" class="right">00:00</span>
+            </div>
+            <div class="progress-bar">
+                <input type="range" name="" id="seekslider" class="seekslider" min="0" max="100" value="0" step="1">
+            </div>
+        </div>
+        <ul class="buttons">
+            <span id="random" class="shuffle button button-sm">
+                <i class="fas fa-random fa-sm"></i>
+            </span>
+            <span id="prevbtn" class="prev button button-md">
+                <i class="fas fa-step-backward"></i>
+            </span>
+            <span id="playpausebtn" class="playpause button button-lg">
+                <i class="fas fa-play fa-lg"></i>
+                <i class="fas fa-pause fa-lg"></i>
+            </span>
+            <span id="nextbtn" class="next button button-md">
+                <i class="fas fa-step-forward"></i>
+            </span>
+            <span id="repeat" class="loop button button-sm">
+                <i class="fas fa-circle-notch fa-sm"></i>
+            </span>
+        </ul>
+        <div class="bar"></div>
+    </main>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+
+
+   
+
+
+<marquee behavior="alternate" scrollamount="6">BY</marquee> 
+<marquee behavior="alternate" scrollamount="10">Felicite</marquee>
+</body>
+</html>
