@@ -1,9 +1,9 @@
 var audio , playbtn , title , poster , artists , seekslider , seeking=false , seekto, currenttimetext , durationtimetext , playlist_status , dir , playlist , ext , agent , playlists_artists , repeat , random;
 
 dir = "songs/";
-playlist = ["Mounanga Unna" , "Puttene Prema" , "Nadhila Nadhila","Hey idi Nenena","hey Choosa","Ee Maya Lo","Chukkala Chunni","Bujjulu Bujjulu" , "Allantha Doorala" , "Choolenge Aasma" , "Devathalantha" , "Gundello Emundo" , "Inkem Inkem Inkem kaavaale" , "Kanne Kanne" , "Kannuladha" , "One More Time" , "Padipoya" , "Paravaledhu" , "Pileche" , "Pilla Picture Perfect" , "Tanemandhe" , "Vachindamma" , "Ye Chota Nuvvunna" , "Yemaindhi Ee Vela" , "Yenti Yenti"]
+playlist = ["Mounanga Unna" , "Puttene Prema" , "Nadhila Nadhila","Hey idi Nenena","Hey Choosa","Ee Maya Lo","Chukkala Chunni","Bujjulu Bujjulu" , "Allantha Doorala" , "Choolenge Aasma" , "Devathalantha" , "Gundello Emundo" , "Inkem Inkem Inkem Kaavaale" , "Kanne Kanne" , "Kannuladha" , "One More Time" , "Padipoya" , "Paravaledhu" , "Pileche" , "Pilla Picture Perfect" , "Tanemandhe" , "Vachindamma" , "Ye Chota Nuvvunna" , "Yemaindhi Ee Vela" , "Yenti Yenti"]
 
-title =["Mounanga Unna" , "Puttene Prema" , "Nadhila Nadhila","Hey idi Nenena","hey Choosa","Ee Maya Lo","Chukkala Chunni","Bujjulu Bujjulu" , "Allantha Doorala" , "Choolenge Aasma" , "Devathalantha" , "Gundello Emundo" , "Inkem Inkem Inkem kaavaale" , "Kanne Kanne" , "Kannuladha" , "One More Time" , "Padipoya" , "Paravaledhu" , "Pileche" , "Pilla Picture Perfect" , "Tanemandhe" , "Vachindamma" , "Ye Chota Nuvvunna" , "Yemaindhi Ee Vela" , "Yenti Yenti"]
+title =["Mounanga Unna" , "Puttene Prema" , "Nadhila Nadhila","Hey idi Nenena","Hey Choosa","Ee Maya Lo","Chukkala Chunni","Bujjulu Bujjulu" , "Allantha Doorala" , "Choolenge Aasma" , "Devathalantha" , "Gundello Emundo" , "Inkem Inkem Inkem Kaavaale" , "Kanne Kanne" , "Kannuladha" , "One More Time" , "Padipoya" , "Paravaledhu" , "Pileche" , "Pilla Picture Perfect" , "Tanemandhe" , "Vachindamma" , "Ye Chota Nuvvunna" , "Yemaindhi Ee Vela" , "Yenti Yenti"]
 poster=["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg","images/5.jpg","images/6.jpg","images/7.jpg"]
 artists=["Daniel Levi", "Diviners-X-Riell","Nilka","Jone","AERYN","Chris Linton","Xaia, Rain Man, Oly"]
 
